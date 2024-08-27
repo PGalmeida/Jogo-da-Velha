@@ -9,6 +9,7 @@ let playing = false
 
 reset()
 
+
 document.querySelector('.reset').addEventListener('click', reset)
 document.querySelectorAll('.item').forEach(item => {
     item.addEventListener('click', itemClick)
